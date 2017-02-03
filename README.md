@@ -4,7 +4,6 @@
 
 Installs the ChefDK for you, so you don't have to think about it.
 
-
 ## Requirements
 
 - Chef 12.0.0 or higher
