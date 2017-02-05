@@ -8,6 +8,7 @@
 - Added Travis.yml
 - Added Rakefile
 - Added Gemfile
+- Added travis badge
 
 ## [v1.0.1] (2017-02-03)
 

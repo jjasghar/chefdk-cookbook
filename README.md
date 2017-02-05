@@ -1,5 +1,7 @@
 # chefdk
 
+[![Build Status](https://travis-ci.org/jjasghar/chefdk-cookbook.svg?branch=master)](https://travis-ci.org/jjasghar/chefdk-cookbook)
+
 ## Scope
 
 Installs the ChefDK for you, so you don't have to think about it.
