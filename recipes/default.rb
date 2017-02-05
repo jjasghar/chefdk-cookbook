@@ -6,5 +6,6 @@
 
 chef_ingredient 'chefdk' do
   action :install
-  version '1.2.22'
+  version node['chefdk']['version']
+  channel node['chefdk']['channel']
 end
