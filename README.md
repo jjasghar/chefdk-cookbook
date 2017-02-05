@@ -14,6 +14,11 @@ Installs the ChefDK for you, so you don't have to think about it.
 
 It will install the ChefDK for you.
 
+You have attributes to override if you want some tuneables:
+
+- `default['chefdk']['version']` - specify a version defaults to `:latest`
+- `default['chefdk']['channel']` - specify a channel `:stable`, `:current`, `:unstable`
+
 ## Contributing
 1. Fork the repository on Github
 2. Create a named feature branch (like `add_component_x`)
