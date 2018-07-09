@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Change this to the channel you'd like to watch :stable, :current, :unstable
 default['chefdk']['channel'] = :current
 
