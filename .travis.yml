@@ -21,7 +21,6 @@ env:
   - KITCHEN_YAML=.kitchen.yml
   - KITCHEN_LOCAL_YAML=.kitchen.dokken.yml
   matrix:
-  - INSTANCE=amazonlinux
   - INSTANCE=debian-8
   - INSTANCE=debian-9
   - INSTANCE=centos-6
@@ -29,8 +28,6 @@ env:
   - INSTANCE=fedora-latest
   - INSTANCE=ubuntu-1604
   - INSTANCE=ubuntu-1804
-  - INSTANCE=opensuse-leap
-
 
 before_script:
   - sudo iptables -L DOCKER || ( echo "DOCKER iptables chain missing" ; sudo iptables -N DOCKER )
