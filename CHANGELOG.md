@@ -1,5 +1,9 @@
 # Change Log
 
+## [v1.3.0] (2018-08-09)
+
+- Converted the attributes to strings per [4][4]
+
 ## [v1.1.0] (2017-02-04)
 
 - Added CHANGELOG
@@ -16,3 +20,4 @@
 
 
 [1]: https://github.com/jjasghar/chefdk-cookbook/issues/1
+[4]: https://github.com/jjasghar/chefdk-cookbook/issues/4

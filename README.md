@@ -18,8 +18,8 @@ It will install the ChefDK for you.
 
 You have attributes to override if you want some tuneables:
 
-- `default['chefdk']['version']` - specify a version defaults to `:latest`
-- `default['chefdk']['channel']` - specify a channel `:stable`, `:current`, `:unstable`
+- `default['chefdk']['version']` - specify a version defaults to `latest`
+- `default['chefdk']['channel']` - specify a channel `stable`, `current`, `unstable`
 
 ## Contributing
 1. Fork the repository on Github
@@ -33,7 +33,7 @@ You have attributes to override if you want some tuneables:
 - Author:: JJ Asghar (jj@chef.io)
 
 ```text
-Copyright 2017 JJ Asghar
+Copyright 2018 JJ Asghar
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
