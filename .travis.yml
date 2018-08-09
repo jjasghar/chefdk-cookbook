@@ -22,14 +22,13 @@ env:
   - KITCHEN_LOCAL_YAML=.kitchen.dokken.yml
   matrix:
   - INSTANCE=amazonlinux
-  - INSTANCE=amazonlinux-2
   - INSTANCE=debian-8
   - INSTANCE=debian-9
   - INSTANCE=centos-6
   - INSTANCE=centos-7
   - INSTANCE=fedora-latest
-  - INSTANCE=ubuntu-16.04
-  - INSTANCE=ubuntu-18.04
+  - INSTANCE=ubuntu-1604
+  - INSTANCE=ubuntu-1804
   - INSTANCE=opensuse-leap
 
 
