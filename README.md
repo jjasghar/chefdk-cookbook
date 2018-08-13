@@ -20,6 +20,8 @@ You have attributes to override if you want some tuneables:
 
 - `default['chefdk']['version']` - specify a version defaults to `latest`
 - `default['chefdk']['channel']` - specify a channel `stable`, `current`, `unstable`
+- `default['chefdk']['package_source']` - specify an alternative package source - defaults to `nil`
+     Full path to a location where the package is located. If present, this file is used for installing the package.
 
 ## Contributing
 1. Fork the repository on Github
