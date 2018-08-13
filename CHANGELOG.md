@@ -1,5 +1,9 @@
 # Change Log
 
+## [v1.4.0] (2018-08-13)
+
+- Enable alternative package_source #5 thanks to [chrisg-fastlane](https://github.com/chrisg-fastlane)
+
 ## [v1.3.0] (2018-08-09)
 
 - Converted the attributes to strings per [4][4]

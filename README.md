@@ -18,9 +18,9 @@ It will install the ChefDK for you.
 
 You have attributes to override if you want some tuneables:
 
-- `default['chefdk']['version']` - specify a version defaults to `latest`
-- `default['chefdk']['channel']` - specify a channel `stable`, `current`, `unstable`
-- `default['chefdk']['package_source']` - specify an alternative package source - defaults to `nil`
+- `default['chefdk']['version']` - specify a version defaults to `latest`. _NOTE:_ Do not use this property when specifying `package_source`.
+- `default['chefdk']['channel']` - specify a channel `stable`, `current`, `unstable`.
+- `default['chefdk']['package_source']` - specify an alternative package source - defaults to `nil`.
      Full path to a location where the package is located. If present, this file is used for installing the package.
 
 ## Contributing
@@ -32,7 +32,7 @@ You have attributes to override if you want some tuneables:
 6. Submit a Pull Request using Github
 
 ## License and Authors
-- Author:: JJ Asghar (jj@chef.io)
+- Author:: JJ Asghar <jj@chef.io>
 
 ```text
 Copyright 2018 JJ Asghar
